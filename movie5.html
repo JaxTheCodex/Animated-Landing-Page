@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transformers Rise Of The Beast</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pop{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../images/1319317.jpeg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.pop a{
+    font-size: 80px ;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    color: #ff3700;
+    border: 3px solid #ff3700;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: rgb(0,0,0,0.5);
+    box-shadow: 5px 10px 12px black;
+}
+.pop a:hover{
+    background-color: #ff37005e;
+    transition: 0.5s ease-in-out;
+    color: #ffffff;
+    border: 3px solid #000000;
+    text-shadow: 5px 10px 12px black;
+}
+.logo{
+    height:210px;
+    width:500px ;
+    background-image: url('./images/logo4.png');
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    filter: drop-shadow(10px 20px 10px black);
+}
+    </style>
+</head>
+
+<body>
+    <div class="pop">
+        <a class="popup-youtube" href="videos/HIDDEN STRIKE Official Trailer (2023) (720p).mp4"><i class="fa fa-play-circle-o"></i> watch Trailer</a>
+        <div class="logo">
+
+        </div>
+    </div>
+    
+    <script>
+        $(function () {
+            $('.popup-youtube, .popup-vimeo').magnificPopup({
+                disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false,
+                fixedContentPos: false
+            });
+        });
+    </script>
+</body>
+
+</html>
